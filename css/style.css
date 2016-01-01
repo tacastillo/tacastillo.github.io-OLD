@@ -1,0 +1,91 @@
+html, body {
+    font-family: 'Arimo', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.brand-logo {
+    font-family: 'Pacifico', cursive;
+}
+
+.overlay {
+    color: #F8F8FF;
+    margin-left: 1rem;
+}
+
+.page {
+    margin-right: 5vw;
+}
+
+.page h1 {
+    margin-bottom: 0;
+}
+
+#whoami ul {
+    margin: 0;
+}
+
+#whoami ul li {
+    display: inline;
+    padding-right: 1.25rem;
+    white-space: nowrap;
+    font-size: 2rem;
+}
+
+#name {
+    margin: 2rem 0 0 0;
+}
+
+#nav-mobile li {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#scroll-down {
+    position:relative;
+    left: 48%;
+    margin: 45vh 0 40vh 0;
+
+}
+
+video#bgvid {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    /*max-width: 100vw;*/
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../assets/loading.png) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-device-width: 800px) {
+    html {
+         background: url(../assets/loading.png) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+}
+/*video { display: block; }*/
