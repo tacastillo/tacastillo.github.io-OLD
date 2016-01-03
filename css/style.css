@@ -15,7 +15,12 @@ h4 {
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+}
+
+.black-page {
+    background: #000000;
+    margin-right: 0;
 }
 
 .brand-logo {
@@ -27,8 +32,14 @@ p {
     margin-left: 1rem;
 }
 
-.page {
-    margin-right: 5vw;
+.left-page {
+    padding: 0 0 0 5vw;
+    min-height: 33vw;
+}
+
+.right-page {
+    padding-right: 5vw;
+    min-height: 33vw;
 }
 
 .page h1 {
@@ -45,7 +56,7 @@ p {
 
 #whoami ul li {
     display: inline;
-    padding-right: 1vw;
+    padding-right: 2vw;
     white-space: nowrap;
     font-size: 3.25vw;
 }
@@ -81,14 +92,5 @@ video#bgvid {
     transform: translateX(-50%) translateY(-50%);
     background: url(../assets/loading.png) no-repeat;
     background-size: cover;
-}
-
-@media screen and (max-device-width: 800px) {
-    html {
-         background: url(../assets/loading.png) #000 no-repeat center center fixed;
-    }
-    #bgvid {
-        display: none;
-    }
 }
 /*video { display: block; }*/
