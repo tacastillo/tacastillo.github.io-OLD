@@ -18,6 +18,10 @@ p {
     font-size: 1.15rem;
 }
 
+nav ul a:hover {
+    background-color: transparent;
+}
+
 .black-page {
     background: #000000;
     margin-right: 0;
@@ -88,8 +92,7 @@ video#bgvid {
 /* Landing Page END */
 
 #nav-mobile li {
-    font-size: 2rem;
-    font-weight: bold;
+    padding-top: 7.5px;
 }
 
 /* Text-on-hover Effect START*/
